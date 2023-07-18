@@ -1,5 +1,5 @@
 {
-  "pensamentos":[
+  "pensamentos": [
     {
       "id": 1,
       "conteudo": "Que bom você veio",
@@ -17,6 +17,12 @@
       "conteudo": "Caramba, esqueci que o React é melhor que o angular",
       "autoria": "Co-angular",
       "modelo": "modelo3"
+    },
+    {
+      "conteudo": "edição concluida",
+      "autoria": "marcus",
+      "modelo": "modelo2",
+      "id": 4
     }
   ]
 }
