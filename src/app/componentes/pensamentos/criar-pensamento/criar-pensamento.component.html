@@ -26,11 +26,9 @@
           Autoria é obrigatória!
         </div>
         <div class="mensagem__erro" *ngIf="formulario.get('autoria')?.errors?.['minlength'] && formulario.get('autoria')?.touched">
-          Autoria precisa ter no mínimo 3 caracteres!
+            Autoria é obrigatório
         </div>
-        <label for="modelo">Selecione o modelo o card:</label>
-        <div class="container-radio">
-            <div class="radio-modelo">
+        <div class="mensagem__erro" *ngIf="formulario.get('autoria')?.errors?.['minlegth'] ">
                 <label for="modelo1">
                     <input
                         type="radio"
@@ -100,6 +98,5 @@
                   </div>
 
             </div>
-        </div>
     </form>
 </section>
